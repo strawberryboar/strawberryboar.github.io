@@ -1,8 +1,10 @@
 body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding:0;
     margin:0;
     background-color: #efeee7;
-    font: Georgia,"Times New Roman",Times,serif;
     color: #333333
 }
 
@@ -16,20 +18,20 @@ a {
     background-color: #333333;
 }
 
-#main-bio {
+.main-bio {
     width: 70%;
 }
 
-#contact-info {
+.contact-info {
     width: 30%;
 }
 
-#bio-image {
+.bio-image {
     margin-right: 10px;
     width: 200px;
 }
 
-#main-bio, #contact-info, #bio-image {
+.main-bio, .contact-info, .bio-image {
     float: left;
 }
 
